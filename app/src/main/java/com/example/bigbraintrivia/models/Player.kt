@@ -1,4 +1,4 @@
-package com.example.bigbraintrivia.model
+package com.example.bigbraintrivia.models
 
 data class Player(
     val nome:String,

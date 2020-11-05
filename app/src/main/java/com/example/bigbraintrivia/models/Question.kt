@@ -1,4 +1,4 @@
-package com.example.bigbraintrivia.model
+package com.example.bigbraintrivia.models
 
 class Question(
     val id:Int,
