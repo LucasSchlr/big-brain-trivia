@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 09, 2020 at 10:47 PM
+-- Generation Time: Nov 10, 2020 at 01:49 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -79,6 +79,18 @@ INSERT INTO `answers` (`answer_id`, `question_id`, `answer_text`, `answer_is_cor
 (38, 10, '11', 0),
 (39, 10, '1', 0),
 (40, 10, '6', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `leaderboard`
+--
+
+CREATE TABLE `leaderboard` (
+  `position` int(11) NOT NULL,
+  `user_name` varchar(64) NOT NULL,
+  `points` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
